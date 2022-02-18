@@ -44,6 +44,7 @@ public class Driver {
                         e.printStackTrace();
                     }
                     break;
+                    //update chrome version
                 case "chrome":
                     WebDriverManager.chromedriver().driverVersion("96.0.4664.45").setup();
                     driver = new ChromeDriver();
